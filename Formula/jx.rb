@@ -1,25 +1,25 @@
 class Jx < Formula
   desc "An interactive JSON explorer for the command line"
   homepage "https://github.com/sqwxl/jx"
-  version "0.5.8"
+  version "0.5.9"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/sqwxl/jx/releases/download/v0.5.8/jx-aarch64-apple-darwin.tar.xz"
-      sha256 "ff56556ee80e9c2b077026e3a729d01a3d114b7f046b5846cef96966a549d8ff"
+      url "https://github.com/sqwxl/jx/releases/download/v0.5.9/jx-aarch64-apple-darwin.tar.xz"
+      sha256 "35604c8f4becf22c2d2207719fc499b31cf364f8ad3a74838e74a2cc44a99270"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sqwxl/jx/releases/download/v0.5.8/jx-x86_64-apple-darwin.tar.xz"
-      sha256 "17f27372e48b8f3b73ae585e8ebb729248b926e2e061a7b8c013337b9f2d82d2"
+      url "https://github.com/sqwxl/jx/releases/download/v0.5.9/jx-x86_64-apple-darwin.tar.xz"
+      sha256 "d24ba20cc5a3b3b80af9d28007a5f0353b23db6adfaef6f87eee2a154842f5d7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/sqwxl/jx/releases/download/v0.5.8/jx-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "92113e323018958705b7ad21ca33bfbe8818ee50808784c60a53d61595affaa6"
+      url "https://github.com/sqwxl/jx/releases/download/v0.5.9/jx-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3e7897a9dadac177fcb1b898c9c34dd0c5e55f811f7d3bf1ef97deec6b1fdbba"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/sqwxl/jx/releases/download/v0.5.8/jx-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "930fc37a5f3bd3ff47d50fceb93130c8a279af4656175e3abd902e3aafbd4818"
+      url "https://github.com/sqwxl/jx/releases/download/v0.5.9/jx-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "4cecb3528f6f352f714b527a76fc9e6f52648548dba2fa660043408f46b09f16"
     end
   end
   license "Unlicense"
